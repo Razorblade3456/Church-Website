@@ -1,0 +1,146 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: bold;
+    font-family: bitcount Grid Double;
+    border: 8px solid rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: light Grid Double;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navbar {
+    background: rgb(150, 135, 0); 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top, #000000 0%, rgb(156, 71, 71) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    text-decoration: dotted;
+    font-size: 2rem;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: default; /* Change cursor to default */
+}
+
+.navbar__links:hover {
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: dotted;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: rgb(1, 13, 126);
+    color: white;
+    cursor: default; /* Change cursor to default */
+}
+
+.button:hover {
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar__menu.active .navbar__links:hover { /* Apply cursor pointer only when menu is active */
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar__menu.active .button:hover { /* Apply cursor pointer only when menu is active */
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+body {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
