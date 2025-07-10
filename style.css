@@ -1,6 +1,6 @@
 h1 {
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -144,13 +144,33 @@ body {
   background-position: center;
 }
 
-service-hours {
-    list-style-type: none;
+.service-hours {
+    list-style-type: circle;
+    font-size: 36px;
     font-weight: bold;
-    display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+
+.service-title {
+    text-align: center;
+    border: 8px solid rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-family: light Grid Double;
+}
+
+.aboutus {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-family: light Grid Double;
+    margin-left: 90px;
+    margin-right: 90px;
 }
