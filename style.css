@@ -57,7 +57,7 @@ footer {
     -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
-    cursor: default;
+    cursor: pointer;
     text-decoration: dotted;
     font-size: 2rem;
 }
@@ -144,3 +144,13 @@ body {
   background-position: center;
 }
 
+service-hours {
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
