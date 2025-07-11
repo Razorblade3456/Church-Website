@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         Church
     </title>
@@ -32,24 +32,25 @@
                     </a>
                 </li>
                 <li class="navbar__item">
-                    <a href="Main.html" class="navbar__links">
+                    <a href="#Aboutus" class="navbar__links">
                         About Us
                     </a>
                 </li>
                 <li class="navbar__item">
-                    <a href="Main.html" class="navbar__links">
+                    <a href="#hours" class="navbar__links">
                         Our Service Hours
                     </a>
                 </li>
                 <li class="navbar__item">
-                    <a href="Main.html" class="navbar__links">
+                    <a href="#contactus" class="navbar__links">
                         Contact Us!
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
-    <h1>
+    
+    <h1 id="Aboutus">
         We welcome you to our Church!
     </h1>
 
@@ -57,7 +58,7 @@
         Our Christian church is a welcoming community dedicated to sharing the love of Jesus Christ. We gather to worship, learn, and support one another in faith. Our goal is to grow spiritually and serve others, guided by the teachings of the Bible. Everyone is invited to join us on this journey of faith and fellowship.
     </p>
     
-    <p class="service-title">
+    <p id="hours" class="service-title">
         Service Hours
     </p>
 
@@ -90,6 +91,31 @@
             Sunday 7:00 AM - 1:00 PM
         </li>
     </ul>
+
+    <p>
+        If you have any questions, please feel free to contact us at our email address: 
+    </p>
+
+    <form action="https://formsubmit.co/abraham1leyva@gmail.com" method="POST">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Main.html">
+
+            <input type="hidden" name="_captcha" value="false">
+            
+        <fieldset>
+            <legend>
+                Give us your feedback!
+            </legend>
+            
+            <label for="message">
+                Message:
+            </label>
+            <input id="contactus"class="message" name="message" rows="8" placeholder="Your message here..." required>
+            <button class="submit" type="submit">Submit</button>
+
+            
+        </fieldset>
+    </form>
 
     <footer>
         <p>&copy; 

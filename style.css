@@ -145,8 +145,8 @@ body {
 }
 
 .service-hours {
-    list-style-type: circle;
-    font-size: 36px;
+    background-image: linear-gradient(to top, #bbb9b9 0%, rgb(54, 57, 10) 100%);
+    font-size: 26px;
     font-weight: bold;
     text-align: center;
     flex-direction: column;
@@ -167,11 +167,62 @@ body {
 
 .aboutus {
     text-align: center;
+    align-items: center;
+    justify-content: center;
     font-size: 30px;
     margin-top: 20px;
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(to top, #ffffff 0%, rgb(83, 86, 41) 100%);
     font-family: light Grid Double;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+legend {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: bitcount Grid Double;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: light Grid Double;
+    margin-bottom: 5px;
+}
+
+.message {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: light Grid Double;
+}
+
+.submit {
+    width: 90px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: light Grid Double;
+}
+
+.submit:hover {
+    border-color: rgb(52, 9, 182);
+    color: cadetblue;
+    border-radius: 8px;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    transform: rotate(360deg);
 }
