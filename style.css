@@ -6,7 +6,7 @@ h1 {
     margin-bottom: 20px;
     text-decoration: bold;
     font-family: bitcount Grid Double;
-    border: 8px solid rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
 }
 
 p {
@@ -137,7 +137,7 @@ footer {
 }
 
 body {
-  background-image: url('bg.jpg');
+  background-image: url('/Images/bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -157,19 +157,20 @@ body {
 
 .service-title {
     text-align: center;
-    border: 8px solid rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
     font-weight: bold;
     font-size: 36px;
     margin-top: 20px;
     color: rgb(0, 0, 0);
-    font-family: light Grid Double;
+    font-family: bitcount Grid Double;
 }
 
 .aboutus {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     margin-top: 20px;
     color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top, #ffffff 0%, rgb(83, 86, 41) 100%);
     font-family: light Grid Double;
     margin-left: 90px;
     margin-right: 90px;
